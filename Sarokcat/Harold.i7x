@@ -625,8 +625,6 @@ carry out Championdrinking:
 			infect "Ipotane";
 			PlayerDrink 5;
 			PlayerEat 5;
-			if HP of Best Pony >= 2:
-				now scalevalue of Player is 4;
 			now LastDrinkserved is turns;
 		else if Humanity of Best Pony is 1:
 			say "     'Back for another?' Harold beams, pulling the usual couple of bottles out from behind the bar and mixing your drink with an expert's touch, then slides the odd cocktail over to you with a cheeky winks. You know it, you smirk, raising your glass to Harold, as you take a long drink from the rich beverage letting is exotic sapor coat your mouth in a welcomed sheen of invigorating tangs. You smack your lips in appreciation, then slide the glass over to him, thanking the fine man for his generosity. 'No problem bud,' the barman hums, plucking the glass of the count as a pleasant buzz starts and the now familiar thrum of change resonates through your body. Too happy to care, you whip any excess from your lips and sit back to watch the show.";
@@ -635,7 +633,7 @@ carry out Championdrinking:
 			PlayerDrink 5;
 			PlayerEat 5;
 			if HP of Best Pony >= 2:
-				now scalevalue of Player is 4;
+				now ScaleValue of Player is 4;
 			now LastDrinkserved is turns;
 
 

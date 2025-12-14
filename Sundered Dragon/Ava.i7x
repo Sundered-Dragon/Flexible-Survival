@@ -8675,7 +8675,7 @@ to say SCUse:
 							now Perception of Best Pony is 3;
 						-- "Or a Primal paw print?":
 							say "     Fang will love this, or not, Sunder isn't his mother.";
-							now HP of Best Pony is 2; 
+							now HP of Best Pony is 2;
 							now Perception of Best Pony is 4;
 				-- "View stage four?":
 					say "     Warning unstable nanites detected, user beware, you're gonna turn into a mare!";
