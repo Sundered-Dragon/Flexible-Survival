@@ -419,9 +419,9 @@ Part 1 - Basic Sex
 the fuckscene of Augustus Drake is "[sexwithdrake]".
 
 to say sexwithdrake:
-	if HP of Augustus Drake is 99 and cunt count of Player >= 1: [Drake is transformed and player has a pussy]
+	if HP of Augustus Drake is 99 and cunt count of Player >= 1:
 		say "[DrakeSexMenu]";
-	else if HP of Augustus Drake is 99 and cunt count of Player is 0: [Drake is transformed but player does not have a pussy]
+	else if HP of Augustus Drake is 99 and cunt count of Player is 0:
 		say "     Drake doesn't seem interested. Perhaps you're not his type.";
 	else:
 		if "Propositioned" is listed in Traits of Augustus Drake:
